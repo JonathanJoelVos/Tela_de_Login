@@ -68,6 +68,7 @@ main {
 
 .tela__login--titulo {
     font-size: 2rem;
+    letter-spacing: 0.5rem;
     color: var(--black-fosco);
 }
 
