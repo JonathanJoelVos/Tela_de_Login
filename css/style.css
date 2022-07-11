@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --yellow: #FFBE0B;
+    --black-fosco: #020122;
+    --roxo: #8338EC;
+    --fonte: 'Bebas Neue', cursive;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: var(--roxo);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 62rem;
+    height: 30rem;
+    padding: 50px;
+
+    background-color: var(--black-fosco);
+    border-radius: 50px;
+    border: 3px solid var(--black-fosco);
+}
+
+.welcome__login {}
+
+.welcome__login--titulo {
+    font-size: 2rem;
+    color: white;
+    margin-left: 3rem;
+}
+
+.welcome__login--image {
+    height: 22rem;
+}
+
+.tela__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 20rem;
+    width: 17rem;
+    padding: 30px;
+    margin-right: 4rem;
+
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.tela__login--titulo {
+    font-size: 2rem;
+    color: var(--black-fosco);
+}
+
+.label__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    width: 100%;
+
+    margin-top: 1.5rem;
+}
+
+.label__login--input {
+    padding: 5px;
+
+    border-radius: 5px;
+    box-shadow: 3px 3px var(--black-fosco);
+}
+
+.login__button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 2rem;
+
+    background-color: var(--black-fosco);
+    border-radius: 5px;
+}
+
+.login__button a {
+    font-size: 1rem;
+
+    color: white;
+    text-decoration: none;
+}
