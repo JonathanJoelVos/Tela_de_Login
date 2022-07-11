@@ -82,6 +82,10 @@ main {
     margin-top: 1.5rem;
 }
 
+.label__login:hover {
+    cursor: pointer;
+}
+
 .label__login--input {
     padding: 5px;
 
